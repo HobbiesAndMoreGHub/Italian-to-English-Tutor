@@ -4,20 +4,19 @@ A comprehensive Italian language learning application built entirely with HTML, 
 
 ## Features
 
-- **Story Translator** — Paste Italian text and get literal word-by-word translations preserving Italian sentence structure
-- **Quick Import** — Bulk import words (Italian-to-English or English-to-Italian) with AI translation via Claude API
+- **Quick Import** — Bulk import words (Italian-to-English or English-to-Italian) with AI translation via Claude API, plus a built-in 6,000+ word dictionary
 - **Word Bank** — Save, search, sort, and manage your vocabulary with easy/hard difficulty markers
 - **Flashcards** — Study with flip cards, weighted shuffle (hard words appear more, easy less), conjugation display, keyboard shortcuts
 - **Memory Game** — Card matching game pairing Italian and English words, with configurable difficulty
 - **Audio Scripts** — Generate and play audio study scripts with adjustable speed, repetition, and voice selection
 - **Dashboard** — Track your learning progress with stats on words learned today, this week, this month
-- **Built-in Dictionary** — 3,000+ Italian-English word pairs ready to load instantly
 
 ## Getting Started
 
 1. Open `index.html` in your browser (Chrome recommended)
-2. Optionally, go to Story Translator > Settings and add your [Anthropic API key](https://console.anthropic.com) for AI-powered translations
-3. Load the built-in dictionary from the Quick Import tab, or start adding words manually
+2. Go to the Quick Import tab and click "Load Built-in Dictionary" to load 6,000+ words
+3. Optionally, click "API Settings" in Quick Import and add your [Anthropic API key](https://console.anthropic.com) for AI-powered translations
+4. Start studying with Flashcards, Memory Game, or Audio Scripts
 
 ## Keyboard Shortcuts (Flashcards)
 
@@ -31,7 +30,6 @@ A comprehensive Italian language learning application built entirely with HTML, 
 ## API Key (Optional)
 
 The Claude API key enables:
-- AI-powered word-by-word story translation
 - Bulk word translation in Quick Import
 - Grammar and conjugation data
 

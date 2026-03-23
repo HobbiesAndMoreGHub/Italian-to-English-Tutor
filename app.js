@@ -1262,7 +1262,7 @@ async function bulkImportWords() {
     }
 
     if (!apiKey) {
-        showToast('Add your Anthropic API key in Settings (Story Translator tab) first.');
+        showToast('Add your Anthropic API key in API Settings (Quick Import tab) first.');
         return;
     }
 
