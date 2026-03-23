@@ -751,6 +751,9 @@ function renderDashboard() {
     document.getElementById('dash-progress-bar').style.width = pct + '%';
     document.getElementById('dash-progress-label').textContent =
         `${pct}% — ${easy.toLocaleString()} of ${total.toLocaleString()} words learned`;
+
+    // Show/hide empty state
+    document.getElementById('dash-empty').classList.toggle('hidden', total > 0);
 }
 
 // ---------- API Key Management ----------
